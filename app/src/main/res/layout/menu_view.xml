@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#eeeeee"
+    android:layout_alignParentBottom="true"
+    android:id="@+id/id_ll"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="share"
+        android:textSize="17sp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:paddingLeft="20dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_delete"
+        android:text="delete"
+        android:textSize="17sp"
+        android:paddingLeft="20dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="join"
+        android:textSize="17sp"
+        android:paddingLeft="20dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="report"
+        android:textSize="17sp"
+        android:paddingLeft="20dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="from"
+        android:textSize="17sp"
+        android:paddingLeft="20dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="blacklist"
+        android:textSize="17sp"
+        android:paddingLeft="20dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"/>
+
+
+</LinearLayout>

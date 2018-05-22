@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/id_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        style="@style/Toolbar.Style"
+        android:background="?attr/colorPrimary"
+        app:navigationIcon="@mipmap/ic_arrow_back_white_36dp"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:title="search"
+        app:titleTextAppearance="@style/Toolbar.TitleText"
+        app:titleTextColor="@android:color/white"
+
+        >
+
+        <android.support.v7.widget.SearchView
+            android:id="@+id/id_search_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:imeOptions="actionSearch"
+            app:defaultQueryHint="search"
+
+            ></android.support.v7.widget.SearchView>
+    </android.support.v7.widget.Toolbar>
+
+    <!--<ListView-->
+        <!--android:id="@+id/search_lv"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"></ListView>-->
+    <TextView
+        android:id="@+id/search_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Query"
+        android:textSize="20sp"/>
+
+</LinearLayout>
